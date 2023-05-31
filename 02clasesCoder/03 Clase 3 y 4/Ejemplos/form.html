@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+
+
+
+    <!-- Formulario simple -->
+    <form action="" method="" enctype="text/plain">
+
+        <fieldset>
+            <legend>Mi primer formulario</legend>
+            <br>
+        
+
+        <!-- Ingreso de texto > input -->
+        <label for="name">Nombre:</label>
+        <input id="name" type="text" name="name"><!-- type = text -->
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input id="email" type="email" name="email" required><!-- type = email -->
+        <br><br>
+
+        <label for="pass">Contraseña:</label>
+        <input id="pass" type="password" name="pass"><!-- type = password -->
+        <br><br>
+
+        <textarea name="" id="" cols="30" rows="10"></textarea>
+        <!-- <textarea name="" id="" cols="30" rows="10" disabled>Texto fijo que no se puede borrar.</textarea> -->
+        <br><br>
+
+        <label for="calendar">Calendario::</label>
+        <input type="date" id="calendar" name="calendar">
+
+        <br><br>
+
+        <!-- Radio -->
+        <label>Permite elegir solo uno:</label>
+        <input type="radio" name="radio-igual" value="acepto"> Si
+        <input type="radio" name="radio-igual" value="no-acepto"> No  
+
+        <br><br>
+
+        <!-- Checkbox -->
+        <label for="check-1">Acepta términos y condiciones</label>
+        <input id="check-1" type="checkbox" name="acepta" value="1">
+        <br>
+
+        <label for="check-2">Queres recibir noticias nuestras?</label>
+        <input id="check-2" type="checkbox" name="no-acepta" value="2">
+
+        <br><br>
+
+        <!-- Select -->
+        <label for="paises">Seleccione un País:</label>
+        <select name="paises" id="paises">
+            <option value="sel">Seleccione...</option>
+            <option value="ARG">Argentina</option>
+            <option value="CHI" selected>Chile</option>
+            <option value="URU">Uruguay</option>
+            <option value="URU">Paraguay</option>
+        </select>
+
+        <br><br>
+
+        <!-- Button -->
+        <input type="submit" value="Enviar"><!-- value -->
+        <input type="reset" value="Borrar">
+
+
+        </fieldset>
+        
+
+    </form>
+
+
+    
+</body>
+</html>

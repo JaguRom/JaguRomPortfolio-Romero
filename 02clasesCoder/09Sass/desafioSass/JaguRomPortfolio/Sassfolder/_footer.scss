@@ -1,0 +1,27 @@
+/* Declaración de variables */
+@import "_variables.scss";
+
+/* Footer */
+.footer {
+display: flex;
+justify-content: center;
+align-items: center;
+color: white;
+background-color: black;
+width: $footerwidth;
+height: 40*2px;
+font-family: 'Aleo', serif;   
+margin-top: 5px;
+margin-bottom: 5px;
+    
+    .footer__text {
+    display: flex;
+    color:  $bubblegum;
+    font-family: 'Aleo', serif;
+    font-size: medium; 
+    font-weight: 100;
+    text-align: center;
+    font-stretch: condensed;
+    font-kerning: auto;
+    }
+}    

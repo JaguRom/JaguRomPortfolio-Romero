@@ -1,0 +1,45 @@
+/* Gonza, estos colores son aproximados, no son los que van posta */
+
+/* General */
+body{                   
+    color: black;
+    background-color: indianred;
+}
+
+.header{
+color: black;
+background-color: white;
+font-family: sans-serif;
+}
+
+#logo{
+color: red;
+font-family: Helvetica;
+font-size: medium;
+}
+
+#contact-button{
+    color: red;
+    font-family: Helvetica;
+    font-size: medium;
+    }
+
+/* Seccion Index */
+#center-text{
+ font-family: Helvetica;
+ color:white;
+ font-size: medium;
+}
+
+/* Secciòn Contact-about */
+.description-bio{
+    color: black;
+    background-color: white;
+    font-family: sans-serif;
+}
+
+table{
+border-color: indianred;
+color: black;
+background-color: white;
+}

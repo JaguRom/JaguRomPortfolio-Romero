@@ -1,0 +1,54 @@
+/* Declaración de variables */
+@import "_variables.scss";
+      
+/* Contact */
+.mainContact {
+height: 950px;
+width: 100%;
+border: 5px black;
+background-color: black;
+box-sizing: border-box;
+margin-top: 5px;
+background-repeat: no-repeat;
+background-size: cover;
+background-position-y: 40%;
+background-color: ivory;
+background-image: url(./Images/mainContact.jpg);
+background-repeat: no-repeat;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr 1fr;
+       
+    .mainContact__form {
+    color:  $bubblegum;
+    font-size: large;
+    display: grid;
+    justify-self: center;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    text-decoration: none;
+    text-align: center;
+    width: 200px;
+
+        #contactMe {
+        min-height: 120px;
+        width: 200px;
+        resize: vertical;
+        }
+        
+        #submit {
+        margin-top:  20px;
+        font-size: medium;
+        font-weight: bolder;
+        color:black;
+        background-color: #852d7c;
+        
+            #submit:hover {
+            transform: scale(1.0);
+            color:white;
+            background-color: $bubblegum ;
+            animation: normal;
+            }   
+        }
+    }
+}

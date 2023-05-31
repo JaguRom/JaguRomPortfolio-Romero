@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <link  rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <title>Contact〡Jagu Rom</title>
+</head>
+
+<body>
+    <header class="header">
+        <!-- Logo -->
+       <section class="header__logo"> 
+           <a href="index.html"> 
+               <img id="logoimg" src="/03portfolioPage/Images/logoF.png" alt="Jagu Rom Logo">
+            </a>
+       </section>  
+  <!-- Menú de navegación -->
+  <nav class="header__menu">
+    <ul>
+        <li> <a href="dance.html" class="header__menu--dance"> Dance </a> </li>
+        <li> <a href="music.html" class="header__menu--music"> Music </a> </li>
+        <li> <a href="street.html" class="header__menu--street"> Street </a> </li>
+        <li> <a href="travelLifestyle.html" class="header__menu--travelLifestyle"> Travel & Lifestyle </a> </li>
+        <li> <a href="portrait.html" class="header__menu--portrait"> Portrait </a> </li>
+         <!-- Boton de contacto/información -->
+         <div class="header__menu--displayContact">
+            <li id="displayContact"> About/Contact
+                <ul class="submenu">
+                    <li><a href="about.html"> About </a></li>
+                    <li><a href="contact.html"> Contact </a></li> 
+                </ul>                    
+            </li>
+            </div>            
+        </ul>                
+    </nav>     
+</header>  
+    <!-- Main -->
+    <Main class="mainContact">
+        <!-- Formulario -->
+        <form class="mainContact__form">
+                <legend>Contact</legend>   
+                <label for="name">Name </label>
+                <input type="text" name="name" id="name" >
+
+                <label for="last-name">Last Name</label>
+                <input type="text" name="last-name" id="last-name"
+
+                <label for="mail">Mail</label>
+                <input type="mail" name="mail" id="mail">
+
+                <label for="text">Contact me!</label>
+                <input id="contactMe" type="textarea" name="comment" id="comment">
+                <!-- Boton para enviar -->
+                <input type="submit" name="submit" id="submit" value="Send">
+        </form>   
+    </main>
+    <!--THE Footer -->
+    <footer class="footer">
+        <p class="footer__text">Follow:</p>
+    </footer>
+</body>
+</html>

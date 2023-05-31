@@ -1,0 +1,61 @@
+/* Declaración de variables */
+@import "_variables.scss";
+
+/* About */
+.mainAbout {
+height: 950px;
+width: 100%;
+border: 5px rgb(255, 255, 255);
+margin-top: 5px;
+background-color: black;
+box-sizing: border-box;
+background-repeat: no-repeat;
+background-size: 1250px;
+background-position-y: 10%;
+background-position-x: right;
+background-color: black;
+background-image: url(./Images/mainAbout.jpg);
+background-repeat: no-repeat;
+font-family: 'Aleo', serif;    
+color: #6930c3;
+text-align: left;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr 1fr;
+
+    .mainAbout__descriptionBio {
+    font-family: 'Aleo', serif;
+    width: 400px;
+    color: $bubblegum;   
+    background: none;
+    grid-column-start: 2;
+    justify-self: left;
+    grid-row-start: 2;
+    text-align-last: center;
+ 
+    
+        .mainAbout__descriptionBio--text{
+        color:#852d7c;
+        font-size: large;
+        text-align-last: left;
+        }
+    }
+    
+    .table{
+    grid-column-start: 2;    
+    grid-row-start: 3;
+    justify-self: left;
+    
+         .table__services {
+        font-size: x-large;
+        color:  $bubblegum;
+        justify-content: center;
+        text-align-last: center;
+
+        .table_services--tableBorder{
+        color: black;
+        background-color: #852d7c
+        $backGrape;       
+        }
+    }
+}

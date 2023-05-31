@@ -1,0 +1,22 @@
+/* Declaración de variables */
+@import "_variables.scss";
+
+/* Street */
+.mainStreet {
+height: 950px;
+width: 100%;
+border: 5px black;
+background-color: black;
+box-sizing: border-box;
+margin-top: 5px;
+background-repeat: no-repeat;
+background-size: cover;
+background-position-y: 40%;
+background-color: ivory;
+background-image: url(./Images/mainStreet.jpg);
+background-repeat: no-repeat;
+filter: saturate(10%);
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr 1fr;
+}

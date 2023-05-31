@@ -1,0 +1,41 @@
+ /* Seccion Index */
+ .main {
+height: 950px;
+width: 100%;
+border: 5px black;
+background-color: black;
+box-sizing: border-box;
+margin-top: 5px;
+background-image: url(./Images/mainByw.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+background-position-y: 30%;
+background-position-x: 50% ;
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr 1fr;
+    
+    .main__mainText {
+    grid-column-start: span 2;
+    grid-row-start: 2;
+    font-family: $writingstyle;
+    font-size: 200px;
+    text-align: center;
+    font-size: medium;;
+            
+        #jagurom {
+        font-family:'Cinzel', serif;;
+        font-size: 90px;  
+        font-style:normal;
+        padding-top: 40px;
+        color:  $bubblegum;
+        }
+    
+        #photography {
+        font-family: $writingstyle;
+        font-style: normal;
+        margin-top: -40px;
+        color:  $bubblegum;
+        }
+    }  
+}
